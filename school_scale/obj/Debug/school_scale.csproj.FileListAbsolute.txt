@@ -1,0 +1,11 @@
+C:\Users\yangwenhao\Documents\Visual Studio 2013\Projects\school_scale\school_scale\bin\Debug\school_scale.exe.config
+C:\Users\yangwenhao\Documents\Visual Studio 2013\Projects\school_scale\school_scale\bin\Debug\school_scale.exe
+C:\Users\yangwenhao\Documents\Visual Studio 2013\Projects\school_scale\school_scale\bin\Debug\school_scale.pdb
+C:\Users\yangwenhao\Documents\Visual Studio 2013\Projects\school_scale\school_scale\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\yangwenhao\Documents\Visual Studio 2013\Projects\school_scale\school_scale\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\yangwenhao\Documents\Visual Studio 2013\Projects\school_scale\school_scale\obj\Debug\school_scale.csprojResolveAssemblyReference.cache
+C:\Users\yangwenhao\Documents\Visual Studio 2013\Projects\school_scale\school_scale\obj\Debug\school_scale.Form1.resources
+C:\Users\yangwenhao\Documents\Visual Studio 2013\Projects\school_scale\school_scale\obj\Debug\school_scale.Properties.Resources.resources
+C:\Users\yangwenhao\Documents\Visual Studio 2013\Projects\school_scale\school_scale\obj\Debug\school_scale.csproj.GenerateResource.Cache
+C:\Users\yangwenhao\Documents\Visual Studio 2013\Projects\school_scale\school_scale\obj\Debug\school_scale.exe
+C:\Users\yangwenhao\Documents\Visual Studio 2013\Projects\school_scale\school_scale\obj\Debug\school_scale.pdb
