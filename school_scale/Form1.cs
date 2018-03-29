@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DocumentFormat.OpenXml.Wordprocessing;
 using DocumentFormat.OpenXml.Packaging;
+using System.Text.RegularExpressions;
 
 namespace school_scale
 {
@@ -152,6 +153,63 @@ namespace school_scale
                 }
             }
         }
+        private void replaceTags(Body body, Dictionary<string, string> dic)
+        {
+            var tables = body.Elements<Table>();
+            var paragraphs = body.Elements<Paragraph>();
 
+
+            foreach (var pair in dic)
+            {
+                foreach (Paragraph p in paragraphs)
+                {
+                    Regex regex = new Regex(string.Format("{{{0}}}", pair.Key));
+                    if (regex.IsMatch(p.InnerText))
+                    {
+                        string newText = regex.Replace(p.InnerText, pair.Value);
+
+                        Run r = (Run)p.Elements<Run>().First().CloneNode(true);
+                        Text text = r.Elements<Text>().First();
+                        text.Text = (newText);
+
+
+                        p.RemoveAllChildren();
+                        p.AppendChild<Run>(r);
+
+                    }
+                }
+
+
+                foreach (Table t in tables)
+                {
+                    foreach (TableRow tr in t.Elements<TableRow>())
+                    {
+                        foreach (TableCell tc in tr.Elements<TableCell>())
+                        {
+                            foreach (Paragraph p in tc.Elements<Paragraph>())
+                            {
+                                Regex regex = new Regex(string.Format("{{{0}}}", pair.Key));
+                                if (regex.IsMatch(p.InnerText))
+                                {
+                                    string newText = regex.Replace(p.InnerText, pair.Value);
+
+                                    Run r = (Run)p.Elements<Run>().First().CloneNode(true);
+                                    Text text = r.Elements<Text>().First();
+                                    text.Text = (newText);
+
+
+                                    p.RemoveAllChildren();
+                                    p.AppendChild<Run>(r);
+
+                                }
+
+                            }
+                        }
+                    }
+                }
+
+
+            }
+        }
     }
 }
