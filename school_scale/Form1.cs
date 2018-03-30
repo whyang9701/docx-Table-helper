@@ -36,7 +36,16 @@ namespace school_scale
                 TableRowInsert(tb, dt);
 
                 //TableCellMerge(tb, 3,2,1,1);
-                wordprocessingDocument.SaveAs(filepath2).Close();
+                //wordprocessingDocument.SaveAs(filepath2).Close();
+
+            }
+
+             using (WordprocessingDocument doc = WordprocessingDocument.CreateFromTemplate(filepath))
+            {
+                Dictionary<string, string> dic = new Dictionary<string, string>();
+                dic.Add("aaa", "haha");
+                this.replaceTags(doc.MainDocumentPart.Document.Body, dic);
+                doc.SaveAs(filepath2).Close();
 
             }
         }
