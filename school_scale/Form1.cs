@@ -182,7 +182,7 @@ namespace school_scale
                         text.Text = (newText);
 
 
-                        p.RemoveAllChildren();
+                        p.RemoveAllChildren<Run>();
                         p.AppendChild<Run>(r);
 
                     }
@@ -207,7 +207,7 @@ namespace school_scale
                                     text.Text = (newText);
 
 
-                                    p.RemoveAllChildren();
+                                    p.RemoveAllChildren<Run>();
                                     p.AppendChild<Run>(r);
 
                                 }

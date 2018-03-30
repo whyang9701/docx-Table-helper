@@ -9,3 +9,14 @@ C:\Users\yangwenhao\Documents\Visual Studio 2013\Projects\school_scale\school_sc
 C:\Users\yangwenhao\Documents\Visual Studio 2013\Projects\school_scale\school_scale\obj\Debug\school_scale.csproj.GenerateResource.Cache
 C:\Users\yangwenhao\Documents\Visual Studio 2013\Projects\school_scale\school_scale\obj\Debug\school_scale.exe
 C:\Users\yangwenhao\Documents\Visual Studio 2013\Projects\school_scale\school_scale\obj\Debug\school_scale.pdb
+Y:\version_controlled\school_scale\school_scale\bin\Debug\school_scale.exe.config
+Y:\version_controlled\school_scale\school_scale\obj\Debug\school_scale.exe
+Y:\version_controlled\school_scale\school_scale\obj\Debug\school_scale.pdb
+Y:\version_controlled\school_scale\school_scale\bin\Debug\school_scale.exe
+Y:\version_controlled\school_scale\school_scale\bin\Debug\school_scale.pdb
+Y:\version_controlled\school_scale\school_scale\bin\Debug\DocumentFormat.OpenXml.dll
+Y:\version_controlled\school_scale\school_scale\bin\Debug\DocumentFormat.OpenXml.xml
+Y:\version_controlled\school_scale\school_scale\obj\Debug\school_scale.csprojResolveAssemblyReference.cache
+Y:\version_controlled\school_scale\school_scale\obj\Debug\school_scale.Form1.resources
+Y:\version_controlled\school_scale\school_scale\obj\Debug\school_scale.Properties.Resources.resources
+Y:\version_controlled\school_scale\school_scale\obj\Debug\school_scale.csproj.GenerateResource.Cache
